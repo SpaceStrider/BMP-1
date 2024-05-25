@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{D6C86EB2FD0AE22F}Assets/Vehicles/Tracked/BMP1/Data/watererase.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

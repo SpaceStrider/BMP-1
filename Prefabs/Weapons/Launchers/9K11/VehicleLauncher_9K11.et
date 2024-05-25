@@ -1,0 +1,50 @@
+GenericEntity : "{D14EC0B3BFCE1A8D}Prefabs/Weapons/Core/VehicleLauncher_Base_01.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  BGONE_GuidedMissileLauncherComponent "{6046B0676D9E4D92}" {
+   m_eLockTypeComponent BGONE_LockType_SACLOS "{6046B06773D90D2D}" {
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{703CBD5B9F3A18DF}Assets/Weapons/Launchers/9K11/9K11_Mount.xob"
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{5E5833608CBE399E}" {
+     components {
+      CaseEjectingEffectComponent "{5E58B4534C658B62}" {
+       EffectPosition EntitySlotInfo Muzzle {
+        PivotID "w_rocketpos"
+        Offset 0 0 0.4456
+       }
+      }
+      SCR_MuzzleEffectComponent "{5E5833608CBE3998}" {
+       EffectPosition EntitySlotInfo Muzzle {
+        PivotID "w_rocketpos"
+        Offset 0 0 -0.1711
+       }
+      }
+     }
+     MuzzleEndPositions {
+      PointInfo "{5E5833606476A7F9}" {
+       PivotID "w_firedir"
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{5E5833606B7819A8}" {
+       PivotID "w_firedir"
+      }
+     }
+     MagazineWell MagazineWell9K11 "{5E5833608CBF39C2}" {
+     }
+     UIInfo MuzzleUIInfo "{5E5833608CBF39B4}" {
+     }
+     MagazinePosition InventoryStorageSlot Mag {
+      PivotID "w_rocketpos"
+     }
+     MagazineTemplate "{3EB1C20C9021A734}Prefabs/Weapons/Magazines/9K11/Rocket_9K11_1rnd_Base.et"
+    }
+   }
+  }
+ }
+}

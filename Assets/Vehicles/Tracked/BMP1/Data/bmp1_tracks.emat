@@ -1,0 +1,7 @@
+MatPBRBasic {
+ Cull none
+ AlphaTest 0.8
+ BCRMap "{862172810CD6D9C7}Assets/Vehicles/Tracked/BMP1/Data/Textures/bmp-1-tracks-flat_L_BCR.edds"
+ OpacityMap "{9CCFE11EC4FFFD92}Assets/Vehicles/Tracked/BMP1/Data/Textures/bmp-1-tracks-flat_A.edds"
+ NMOMap "{BEF9C913D5A18B59}Assets/Vehicles/Tracked/BMP1/Data/Textures/bmp-1-tracks-flat_L_NMO.edds"
+}

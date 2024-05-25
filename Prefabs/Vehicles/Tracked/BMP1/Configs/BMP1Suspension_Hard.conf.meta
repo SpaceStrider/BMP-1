@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{966BEF4C4B522398}Prefabs/Vehicles/Tracked/BMP1/Configs/BMP1Suspension_Soft.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{882BEB27BA9078B1}Configs/Weapons/AIBallisiticTables/AIBT_Rocket_9M113.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

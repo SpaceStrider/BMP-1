@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{EFC5509FC1C06517}Prefabs/Weapons/Core/VehicleLauncher_9M113.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

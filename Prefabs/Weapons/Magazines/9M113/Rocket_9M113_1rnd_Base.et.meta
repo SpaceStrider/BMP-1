@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{8A36D3F6EF94F53D}Prefabs/Weapons/Core/Rocket_9M113_1rnd_Base.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

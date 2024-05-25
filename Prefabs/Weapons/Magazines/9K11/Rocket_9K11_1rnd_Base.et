@@ -1,0 +1,25 @@
+GenericEntity : "{7389EEB43FC3386B}Prefabs/Weapons/Core/Rocket_RPG_1rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "9K11 Vehicle Magazine"
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWell9K11 "{5E583361800BCACD}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "9K11"
+   }
+   ItemModel "{3BB4BE2859C111C2}Assets/Weapons/Magazine/9K11/9K11.xob"
+   AmmoConfig "{08DF83C600528FBD}Configs/Weapons/Ammo/Ammo_9K11.conf"
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{3BB4BE2859C111C2}Assets/Weapons/Magazine/9K11/9K11.xob"
+  }
+ }
+ coords -0.252 -0.336 -0.395
+}

@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{E674EA5F1D46A17E}Assets/Vehicles/Tracked/BMP1/Data/bmp_wheels.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

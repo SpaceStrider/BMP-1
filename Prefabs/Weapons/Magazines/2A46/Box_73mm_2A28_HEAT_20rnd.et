@@ -1,0 +1,53 @@
+GenericEntity : "{F9E1A46E3ABA116F}Prefabs/Weapons/Core/Magazine_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  AICombatPropertiesComponent "{59CE86D96C332DDF}" {
+   Priority 25
+   PriorityAgainstVehicles 100
+   UsedAgainst 12
+  }
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "2A28 HEAT"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5E52C1C4DF2584A3}" {
+     Weight 5
+    }
+    m_Size SLOT_2x2
+   }
+   WeightPerAmmo 3
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   MagazineWell MagazineWell2A28 "{5E52C1C4DF2584A9}" {
+   }
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    Name "2A28 PG-9 HEAT"
+    Description ""
+    m_sAmmoCaliber "73mm"
+    m_sAmmoType "HEAT"
+    m_bShowAmmoTypeText 1
+    m_eAmmoTypeFlags HEAT
+   }
+   ItemModel "{EB0A22FF818604FF}Assets/Props/Military/MilitaryCrates/CrateStack_01/Dst/CrateStack_01_dst_3.xob"
+   MaxAmmo 20
+   AmmoConfig "{72337A9B259E8716}Configs/Weapons/Ammo/Ammo_2A28_73mm.conf"
+  }
+  MeshObject "{CA6BE4D6A23F8EF0}" {
+   Object "{2482E01261AB2FB5}Assets/Weapons/Magazines/PM/Magazine_8rnd_PM.xob"
+  }
+  RigidBody "{571B0382401B1385}" {
+   Mass 40
+  }
+  ActionsManagerComponent "{F092E6B0537754FD}" {
+   additionalActions {
+    SCR_AttachItemFromInventoryAction "{5A1E58F7D9256374}" {
+     ParentContextList {
+      "Commander_Idle"
+     }
+    }
+   }
+   AllowCrossHierarchy 1
+  }
+ }
+}

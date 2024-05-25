@@ -1,0 +1,20 @@
+Turret : "{8D156898FAFA2CAD}Prefabs/Vehicles/Tracked/BMP1/VehParts/Turret/BMP1P_Turret.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{5E587134DF543599}" {
+     SourceMaterial "bmp1_turret"
+     AssignedMaterial "{BC727BA77D004EBD}Assets/Vehicles/Tracked/BMP1/Data/FIA/bmp1_turret_FIA.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{5E52AE0A31173B6B}" {
+   Slots {
+    EntitySlotInfo Backing {
+     Prefab "{4212ED40CF64D211}Prefabs/Vehicles/Tracked/BMP1/VehParts/Turret/BMP1P_Turret_Back_FIA.et"
+    }
+   }
+  }
+ }
+}

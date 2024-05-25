@@ -1,0 +1,9 @@
+MatDeferredDecals {
+ Texture "{CD246692410BCBFA}Assets/Vehicles/Tracked/BMP1/Data/Textures/BMPShadow_A.edds"
+ Intensity 0.9
+ FadeProjection 0.5
+ FadeProjectionOpposite 0.5
+ FadeAngleDir 0 1 0
+ FadeAngleStart 20
+ FadeAngleEnd 90
+}

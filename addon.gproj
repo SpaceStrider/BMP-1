@@ -1,0 +1,84 @@
+GameProject {
+ ID "BMP1"
+ GUID "5E524E4FEECCA92B"
+ TITLE "BMP-1"
+ Dependencies {
+  "58D0FB3206B6F859" "5E389BB9F58B79A6" "5F1EE615E7AE3106"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{60F08A83B6695796}" {
+      StringTableSource "{E50E557B468C7073}Language/BMP_Localization.st"
+      Languages {
+       LanguageDefinition "{60F08A83B54B06D8}" {
+        Code "cs_cz"
+        StringTableRuntime "{B9AB28569D06B0C0}Language/BMP_Localization.cs_cz.conf"
+       }
+       LanguageDefinition "{60F08A83B54B06AB}" {
+        Code "de_de"
+        StringTableRuntime "{6CD532658EA5A1E0}Language/BMP_Localization.de_de.conf"
+       }
+       LanguageDefinition "{60F08A83B54B0699}" {
+        Code "en_us"
+        StringTableRuntime "{3225B82EE456A4E1}Language/BMP_Localization.en_us.conf"
+       }
+       LanguageDefinition "{60F08A83B54B068B}" {
+        Code "es_es"
+        StringTableRuntime "{F769F5A70A54CFFE}Language/BMP_Localization.es_es.conf"
+       }
+       LanguageDefinition "{60F08A83B54B0676}" {
+        Code "fr_fr"
+        StringTableRuntime "{4CC10090ECD72CFC}Language/BMP_Localization.fr_fr.conf"
+       }
+       LanguageDefinition "{60F08A83B54B0667}" {
+        Code "it_it"
+        StringTableRuntime "{CCDD8FA441F5AF05}Language/BMP_Localization.it_it.conf"
+       }
+       LanguageDefinition "{60F08A83B54B0653}" {
+        Code "ja_jp"
+        StringTableRuntime "{DCC632367F849FAE}Language/BMP_Localization.ja_jp.conf"
+       }
+       LanguageDefinition "{60F08A83B54B0659}" {
+        Code "ko_kr"
+        StringTableRuntime "{7C781A9AECA99C91}Language/BMP_Localization.ko_kr.conf"
+       }
+       LanguageDefinition "{60F08A83B54B064A}" {
+        Code "pl_pl"
+        StringTableRuntime "{2009BC60524600ED}Language/BMP_Localization.pl_pl.conf"
+       }
+       LanguageDefinition "{60F08A83B54B0631}" {
+        Code "pt_br"
+        StringTableRuntime "{F57E26AC69B8CA57}Language/BMP_Localization.pt_br.conf"
+       }
+       LanguageDefinition "{60F08A83B54B0626}" {
+        Code "ru_ru"
+        StringTableRuntime "{A03F3204F4C1AF21}Language/BMP_Localization.ru_ru.conf"
+       }
+       LanguageDefinition "{60F08A83B54B07BE}" {
+        Code "uk_ua"
+        StringTableRuntime "{2A6767F298EF1174}Language/BMP_Localization.uk_ua.conf"
+       }
+       LanguageDefinition "{60F08A83B54B07AA}" {
+        Code "zh_cn"
+        StringTableRuntime "{F0D709CFA14FC169}Language/BMP_Localization.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 : PC {
+   PlatformHardware PS5
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

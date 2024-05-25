@@ -1,0 +1,10 @@
+MatPBRBasic : "{9401F7B944EF2175}Assets/Vehicles/Tracked/BMP1/Data/bmp1_tracks.emat" {
+ TCModFuncs {
+  TCModShift "{5C709E85FA253C86}" {
+   ShiftV 0.0
+   Refs {
+    "ShiftV" "Tank.m_RightTrack"
+	}
+  }
+ }
+}

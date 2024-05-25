@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{DBB98856E6D601D8}Sounds/Weapons/HeavyWeapons/120mm Smoothbore/Weapons_HeavyWeapons_2A28_Shot.acp"
+ Configurations {
+  AudioProjectResourceClass PC {
+  }
+  AudioProjectResourceClass XBOX_ONE : PC {
+  }
+  AudioProjectResourceClass XBOX_SERIES : PC {
+  }
+  AudioProjectResourceClass PS4 : PC {
+  }
+  AudioProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

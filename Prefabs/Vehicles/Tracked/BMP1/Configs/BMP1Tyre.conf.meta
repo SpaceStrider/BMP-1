@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{9166AEAF7D3929B7}Prefabs/Vehicles/Tracked/T-72A/Configs/BMP1Tyre.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

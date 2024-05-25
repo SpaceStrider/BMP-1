@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{D6A5CB323C315D68}Prefabs/Vehicles/Tracked/T-72A/Configs/BMP1Wheel.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

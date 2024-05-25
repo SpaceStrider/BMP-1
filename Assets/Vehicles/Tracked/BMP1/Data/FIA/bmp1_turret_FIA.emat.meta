@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{BC727BA77D004EBD}Assets/Vehicles/Tracked/BMP1/Data/bmp1_turret_FIA.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

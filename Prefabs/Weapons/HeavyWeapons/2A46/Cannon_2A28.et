@@ -1,0 +1,201 @@
+GenericEntity : "{E1F14DB52DBFBC57}Prefabs/Weapons/Core/Weapon_Base.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{DBB98856E6D601D8}Sounds/Weapons/HeavyWeapons/2A28/Weapons_HeavyWeapons_2A28_Shot.acp" "{8955A571EC4758FB}Sounds/Weapons/HeavyWeapons/KPVT/Weapons_HeavyWeapons_KPV_Handling.acp"
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{91CB45EB29FB5CCB}Assets/Vehicles/Tracked/BMP1/BMP1_2A28.xob"
+  }
+  RigidBody "{60563D1BDFE9A3E0}" {
+   Mass 200
+   ModelGeometry 1
+  }
+  ProcAnimComponent "{5E52AE0E8B267AA8}" {
+   Parameters {
+    ProcAnimParams "{5E569AD8AC510EBC}" {
+     ResourceName "{838677EBAFC6A846}anims/proc/CannonFire.pap"
+     BoneNames {
+      "w_root"
+     }
+     SimulationDistance 100
+    }
+   }
+  }
+  SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
+   Attributes SCR_ItemAttributeCollection "{51F080D5C64F12C5}" {
+    ItemDisplayName WeaponUIInfo "{5E52AE0E8B267ABC}" {
+     Name "2A46"
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5E52AE0E8B267AB9}" {
+     Weight 520.5
+     SizeSetupStrategy Volume
+     ItemDimensions 10 10 10
+     ItemVolume 120000
+     DimensionScaler 1
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    CustomAttributes {
+     AimingModifierAttributes "{566C7D15A071B88E}" {
+     }
+     ItemMovementSwayAttributes "{58B9009CD03086A9}" {
+     }
+     SCR_RecoilCameraShakeParams "{58DEF2AB0413E346}" {
+      m_fBlendOutTime 0.151
+      m_fRecoilTarget 1
+      m_fMaximumPercentage 2.294
+      m_vTranslationMin 0.2 0.2 0
+      m_vTranslationMax 0.5 0.5 0
+      m_fFOVModifier 0.7
+     }
+     CharacterModifierAttributes "{5E52AE0E8B267AC7}" {
+     }
+     PreviewRenderAttributes "{5E52AE0E8B267AC0}" {
+      CameraPreset Left
+      CameraDistanceToItem 1.9
+      FOV 30
+      AspectRatio 1
+      AnimationInstance "{C79EA6F6F4EFE7CC}anims/workspaces/player/player_inventory_LMG.asi"
+     }
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    SightsComponent "{BB23A637957CFFF8}" {
+     CameraRecoilAmount 2.213
+    }
+    MuzzleComponent "{5E52AE0E8B267ACE}" {
+     components {
+      CaseEjectingEffectComponent "{5E52AE0E8B267AC8}" {
+       ParticleEffect "{C581260B853DA4A4}Particles/Weapons/Smoke_2a28.ptc"
+       EffectPosition EntitySlotInfo Smoke {
+        PivotID "barrel_muzzle"
+        Offset 0 0 1
+       }
+      }
+      SCR_MuzzleEffectComponent "{5E52AE0E8B267AD6}" {
+       ParticleEffect "{75DA8C3FD519C227}Particles/Weapons/Muzzle_2a28.ptc"
+       EffectPosition EntitySlotInfo EffectPostion {
+        PivotID "barrel_muzzle"
+        Offset 0 0 0.9
+       }
+      }
+     }
+     MuzzleEndPositions {
+      PointInfo "{5E52AE0E8B267AD2}" {
+       PivotID "barrel_muzzle"
+      }
+     }
+     ProjectileSpawnPositions {
+      PointInfo "{5E52AE0E8B267ADC}" {
+       PivotID "barrel_chamber"
+      }
+     }
+     FireModes {
+      BaseFireMode "{5E52AE0E8B267ADE}" {
+       MaxBurst 0
+       MaxSalvo 0
+       RoundsPerMinute 0
+       UIName "Safe"
+      }
+      BaseFireMode "{5E52AE0E8B267AD8}" {
+       MaxBurst -1
+       RoundsPerMinute 10
+       UIName "Single"
+      }
+     }
+     MagazineWell MagazineWell2A28 "{5E52AE0E8B267ADA}" {
+     }
+     BulletInitSpeedCoef 1
+     DispersionDiameter 0.4
+     DispersionRange 500
+     WeaponAimModifiers {
+      SwayWeaponAimModifier "{5E52AE0E8B267AE4}" {
+       Name "SWAY"
+       "Linear Damping" 0.85 0.5 0.825
+       "Linear Magnitude" 1
+       "Angular Damping" 0.95 0.3 0.4
+       "Angular Magnitude" 1
+       "Stamina Magnitude Curve" {
+        0 1 0.491 0.961 0.722 0.867 0.828 0.727 0.947 0.518 1 0.087
+       }
+      }
+      OnHitAimModifier "{5E52AE0E8B267AE6}" {
+       IsEnabled 0
+      }
+      RecoilWeaponAimModifier "{5E52AE0E8B267AE0}" {
+       LinearData RecoilData "{5E52AE0E8B267AE2}" {
+        "Curve X" {
+         0 0.5 1 0.5
+        }
+        "Curve Y" {
+         0 0.5 0.032 0.55 0.045 0.75 0.065 0.7 0.071 0.65 0.095 0.5 0.25 0.45 0.45 0.52 0.7 0.495 1 0.5
+        }
+        "Curve Z" {
+         0 0.5 0.032 0.65 0.045 0.95 0.065 0.95 0.071 0.85 0.095 0.7 0.25 0.35 0.45 0.55 0.7 0.485 1 0.5
+        }
+        "Curve Time Scale" 1
+        "Curve Magnitudes" 1 1 1
+        "Curve Mins" -0.001 -0.006 -0.07
+        "Curve Maxs" 0 -0.005 -0.018
+        "Base Recoil Scale" 5
+       }
+      }
+     }
+     UIInfo MuzzleUIInfo "{5E52AE0E8B267AEC}" {
+      Name "2A28"
+      Description "BMP-1 Main cannon"
+      m_bShowCaliber 1
+      m_sCaliber "73mm"
+      m_MagIndicator SCR_MagazineIndicatorConfiguration "{5E52AE0E8B267AE9}" {
+      }
+     }
+     ReloadDuration 6
+     MagazinePosition InventoryStorageSlot Mag {
+      Offset 0 0.019 -0.9026
+     }
+     MagazineTemplate "{A51C31A73C62A4AE}Prefabs/Weapons/Magazines/2A46/Box_73mm_2A28_HEAT_20rnd.et"
+    }
+    WeaponAnimationComponent "{60563D1BA6C5E3A6}" {
+     AnimGraph "{5C41727F96285D4E}Assets/Weapons/MachineGuns/workspaces/M249.agr"
+     AnimInstance "{E2DF83DEEE9355A1}Assets/Weapons/HeavyWeapons/workspaces/Cannon_weapon.asi"
+     AlwaysActive 1
+     BindWithInjection 1
+     AnimCommandsToBind {
+      "" ""
+     }
+     AnimVariablesToBind {
+      ""
+     }
+    }
+   }
+   WeaponType Rifle
+   IkObstructionEnabled 1
+   obstructionTestCharacterOffset 0 0 0
+   obstructionTestAddedLength 0
+   obstructionTestBreakingThreshold 0.7
+   ObstructionAlphaThreshold 1
+   SoundInt 1030000
+   UIInfo WeaponUIInfo "{CC3BA6A2C42F09F4}" {
+    Name "2A46"
+    m_bShowWeaponName 1
+   }
+   WeaponSlotType "hmg"
+  }
+  ActionsManagerComponent "{A29AE67FF4D82B0F}" {
+   Enabled 1
+   ActionContexts {
+    UserActionContext "{5A1E58F7B04F9BE5}" {
+     Position PointInfo "{5E52AE0E8B267AF0}" {
+     }
+    }
+   }
+   AllowCrossHierarchy 1
+  }
+ }
+ coords 0 0 0
+}

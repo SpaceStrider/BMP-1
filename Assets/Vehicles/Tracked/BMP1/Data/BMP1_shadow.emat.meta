@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{A236ABBB7B4531B8}Assets/Vehicles/Wheeled/BTR70/Data/BMP1_shadow.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

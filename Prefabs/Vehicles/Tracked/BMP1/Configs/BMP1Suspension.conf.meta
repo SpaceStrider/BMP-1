@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{ED3198AD721F851E}Prefabs/Vehicles/Tracked/T-72A/Configs/BMP1Suspension.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

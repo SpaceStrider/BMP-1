@@ -1,0 +1,27 @@
+Tank : "{1DC01AAACFFA8B63}Prefabs/Vehicles/Tracked/BMP1/BMP1_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#SPC-Vehicle_BMP1P_Name"
+    m_Image "{0984CB0B94DC3D0A}UI/Textures/EditorPreviews/Vehicles/Tracked/BMP1/Screenshot 2023-09-12 200012.edds"
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5E529ED09B647D03}" {
+   MultiSlots {
+    MultiSlotConfiguration "{5E56914714235D4B}" {
+     SlotTemplate InventoryStorageSlot Rockets {
+      Prefab "{8A36D3F6EF94F53D}Prefabs/Weapons/Magazines/9M113/Rocket_9M113_1rnd_Base.et"
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{8D156898FAFA2CAD}Prefabs/Vehicles/Tracked/BMP1/VehParts/Turret/BMP1P_Turret.et"
+    }
+   }
+  }
+ }
+}

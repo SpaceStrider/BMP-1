@@ -1,0 +1,66 @@
+Tank BMP1_FIA1 : "{0144F571F1998FC4}Prefabs/Vehicles/Tracked/BMP1/BMP1_FIA.et" {
+ coords 28.917 1 226.797
+}
+TracerProjectile : "{03F06980285261DC}Prefabs/Weapons/Ammo/Ammo_Rocket_9M14.et" {
+ coords 25.861 1 248.427
+}
+GenericEntity : "{0A21DC21B1D23732}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Magazines/VehPart_BTR70_AmmoStorage_PKMT_KVPT.et" {
+ coords 13.369 1 240.301
+}
+Tank BMP1_base1 : "{1DC01AAACFFA8B63}Prefabs/Vehicles/Tracked/BMP1/BMP1_base.et" {
+ coords 29.08 1 235.944
+}
+Tank BMP1P_base1 : "{3868E03D9A4AF186}Prefabs/Vehicles/Tracked/BMP1/BMP1P_base.et" {
+ components {
+  RigidBody "{51DAA09FECF52BBF}" {
+   Active AlwaysActive
+  }
+ }
+ coords 22.149 1 261.37
+}
+GenericEntity : "{3A66B8FDCA19F3CD}Prefabs/Weapons/Launchers/9K11/VehicleLauncher_9K11.et" {
+ coords 26.876 1 248.222
+}
+Turret : "{66596659FB0F645B}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret.et" {
+ coords 35.669 1 208.009
+}
+Projectile : "{70DB58C84E987049}Prefabs/Weapons/Ammo/Ammo_Rocket_9M113.et" {
+ coords 25.181 1 248.089
+}
+Turret : "{8021A4D1ADFCF506}Prefabs/Vehicles/Tracked/BMP1/VehParts/Turret/BMP1_Turret.et" {
+ coords 28.968 1 216.584
+}
+Projectile : "{84DE795F6369D22C}Prefabs/Weapons/Ammo/BGONE_Ammo_Missile_SACLOS.et" {
+ coords 25.181 1 249.296
+ angleY 0
+}
+Turret : "{8AD73EFD8516825A}Prefabs/Vehicles/Tracked/BMP1/VehParts/Turret/BMP1_Turret_FIA.et" {
+ coords 29.304 1 211.037
+}
+Turret : "{8D156898FAFA2CAD}Prefabs/Vehicles/Tracked/BMP1/VehParts/Turret/BMP1P_Turret.et" {
+ coords 23.231 1 216.354
+}
+GenericEntity : "{9058D61B520DE32B}Prefabs/Vehicles/Wheeled/M923A1/VehParts/M923A1_sparetire_holder.et" {
+ coords 39.559 1 206.879
+}
+Turret : "{94AF1A75954F1749}Prefabs/Vehicles/Tracked/BMP1/VehParts/Turret/BMP1P_Turret_FIA.et" {
+ coords 23.473 1 210.913
+}
+GenericEntity : "{9CEA10E8ABCFA5C3}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Magazines/VehPart_Magazine_KVPT.et" {
+ coords 10.881 1 240.158
+}
+Tank BMP1P_FIA1 : "{BF0050432603DD9E}Prefabs/Vehicles/Tracked/BMP1/BMP1P_FIA.et" {
+ coords 22.78 1 225.611
+}
+Vehicle BTR1 : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ coords 37.122 1 235.489
+}
+GenericEntity : "{E33A630D66F972A9}Prefabs/Vehicles/Tracked/BMP1/VehParts/Turret/BMP1_Turret_Back.et" {
+ coords 29.262 1 205.702
+}
+Turret : "{E83FE945143E9FCC}Prefabs/Vehicles/Tracked/BMP1/VehParts/CommanderTurret/BMP1_Commander_Turret.et" {
+ coords 33.784 1 207.154
+}
+GenericEntity : "{EFC5509FC1C06517}Prefabs/Weapons/Launchers/9M113/VehicleLauncher_9M113.et" {
+ coords 24.422 1 248.223
+}

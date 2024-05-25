@@ -1,0 +1,34 @@
+Tank : "{1DC01AAACFFA8B63}Prefabs/Vehicles/Tracked/BMP1/BMP1_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5E5871351ABC14E2}" {
+     SourceMaterial "bmp1_hull"
+     AssignedMaterial "{B7D7AB90DF918FD3}Assets/Vehicles/Tracked/BMP1/Data/FIA/bmp1_hull_FIA.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "FIA"
+    m_aAutoLabels {
+     12 122 1001
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "FIA"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{8AD73EFD8516825A}Prefabs/Vehicles/Tracked/BMP1/VehParts/Turret/BMP1_Turret_FIA.et"
+    }
+    RegisteringComponentSlotInfo Commander_Turret {
+     Prefab "{820F70E82EB950B3}Prefabs/Vehicles/Tracked/BMP1/VehParts/CommanderTurret/BMP1_Commander_Turret_FIA.et"
+    }
+   }
+  }
+ }
+}

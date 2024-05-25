@@ -1,0 +1,15 @@
+MetaFileClass {
+ Name "{754B191B52FD7AEA}Common/Materials/Game/Armor/armor_16mm.gamemat"
+ Configurations {
+  GameMaterialResourceClass PC {
+  }
+  GameMaterialResourceClass XBOX_ONE : PC {
+  }
+  GameMaterialResourceClass XBOX_SERIES : PC {
+  }
+  GameMaterialResourceClass PS4 : PC {
+  }
+  GameMaterialResourceClass HEADLESS : PC {
+  }
+ }
+}
